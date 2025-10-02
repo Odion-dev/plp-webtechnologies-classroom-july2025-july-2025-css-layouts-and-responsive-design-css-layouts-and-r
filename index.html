@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Page with Grid and Flexbox</title>
+ 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <header>
+    <h1>My Responsive Webpage</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Layout (Grid) -->
+  <main class="container">
+    <!-- Main Content -->
+    <section class="content">
+      <h2>Main Content</h2>
+      <p>
+        This is the main content area. It uses CSS Grid for the overall page layout
+        and Flexbox for card alignment inside this section.
+      </p>
+
+      <!-- Cards (Flexbox) -->
+      <div class="card-container">
+        <div class="card">
+          <h3>Card 1</h3>
+          <p>Some information inside a card layout.</p>
+        </div>
+        <div class="card">
+          <h3>Card 2</h3>
+          <p>Another card to demonstrate Flexbox wrapping.</p>
+        </div>
+        <div class="card">
+          <h3>Card 3</h3>
+          <p>Cards adjust responsively with flex properties.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Sidebar</h2>
+      <p>
+        This is the sidebar. On smaller screens, it moves above the content area.
+      </p>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Website. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
